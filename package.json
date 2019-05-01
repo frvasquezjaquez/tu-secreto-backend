@@ -1,9 +1,10 @@
 {
-  "name": "ccbackend",
+  "name": "tu-secreto-backend",
   "version": "1.0.0",
   "description": "Backend for Marketing Efemerides Management",
   "main": "server.js",
   "scripts": {
+    "now-start": "babel-node src/server.js",
     "start": "babel-node src/server.js",
     "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/server.js",
     "test": "jest --forceExit"
