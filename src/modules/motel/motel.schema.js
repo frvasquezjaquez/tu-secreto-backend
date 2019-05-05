@@ -63,7 +63,7 @@ export default `
     price: Float!
   }
   
-  type Images{ 
+  type Image{ 
     silder_images: [String]!
     feautured_image: String
   }
