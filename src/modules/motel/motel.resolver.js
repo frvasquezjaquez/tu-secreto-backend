@@ -17,8 +17,8 @@ export default {
         let { max, min } = args
         return Motel.filter((motel) => {
           for (let room of motel.rooms){
-            for (let price of room.price){ 
-              if (price.price >= min || price.price <= max){
+            for (let prices of room.prices){ 
+              if (prices.price >= min || prices.price <= max){
                 return true;
               }
             }
