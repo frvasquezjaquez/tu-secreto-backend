@@ -25,16 +25,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 400
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 300
         }],
         "type": "Expreso",
@@ -71,24 +71,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 630
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 480
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 860
         }],
         "type": "Ejecutiva",
@@ -125,24 +125,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1800
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1800
         }],
         "type": "Presidencial",
@@ -179,16 +179,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 400
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 300
         }],
         "type": "Expreso",
@@ -225,16 +225,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 450
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 330
         }],
         "type": "Expreso",
@@ -271,16 +271,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 330
         }],
         "type": "Expreso",
@@ -317,16 +317,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 390
         }],
         "type": "Expreso",
@@ -363,16 +363,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 640
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 420
         }],
         "type": "Expreso",
@@ -409,16 +409,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 400
         }],
         "type": "Expreso",
@@ -455,24 +455,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 320
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Ejecutiva",
@@ -509,24 +509,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 650
         }],
         "type": "Mini Suit",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "Suit",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 950
         }],
         "type": "Mini Suit Con Patio",
@@ -563,24 +563,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 470
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 330
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
@@ -617,16 +617,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 740
         }],
         "type": "Ejecutiva",
@@ -663,32 +663,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Semi-Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 2400
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 630
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 980
         }],
         "type": "Ejecutiva",
@@ -725,16 +725,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 480
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 350
         }],
         "type": "Expreso",
@@ -771,16 +771,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 225
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 199
         }],
         "type": "Expreso",
@@ -817,16 +817,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 720
         }],
         "type": "Ejecutiva",
@@ -863,16 +863,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
@@ -909,16 +909,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 630
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 730
         }],
         "type": "Ejecutiva",
@@ -955,16 +955,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
@@ -1001,16 +1001,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
@@ -1047,8 +1047,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Normal",
@@ -1085,16 +1085,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
@@ -1131,16 +1131,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 930
         }],
         "type": "Ejecutiva",
@@ -1177,24 +1177,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 990
         }],
         "type": "Clasica",
@@ -1231,24 +1231,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 440
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
@@ -1285,16 +1285,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "Ejecutiva",
@@ -1331,16 +1331,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
@@ -1377,24 +1377,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 2800
         }],
         "type": "Presidencial",
@@ -1431,24 +1431,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1400
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 750
         }],
         "type": "Ejecutiva",
@@ -1485,16 +1485,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 630
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Expreso",
@@ -1531,24 +1531,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 900
         }],
         "type": "Ejecutiva",
@@ -1585,16 +1585,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
@@ -1631,24 +1631,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 490
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 850
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
@@ -1685,24 +1685,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 650
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Expreso",
@@ -1739,24 +1739,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1600
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 980
         }],
         "type": "Presidencial Small",
@@ -1793,24 +1793,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 590
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
@@ -1847,8 +1847,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 830
         }],
         "type": "Ejecutiva",
@@ -1885,8 +1885,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 620
         }],
         "type": "Normal",
@@ -1923,16 +1923,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 720
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 950
         }],
         "type": "Ejecutiva",
@@ -1969,24 +1969,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 960
         }],
         "type": "Presidencial",
@@ -2023,16 +2023,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 850
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 620
         }],
         "type": "Normal",
@@ -2069,16 +2069,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 670
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 650
         }],
         "type": "Normal",
@@ -2115,8 +2115,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -2153,16 +2153,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Normal",
@@ -2199,16 +2199,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 590
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 650
         }],
         "type": "Ejecutiva",
@@ -2245,16 +2245,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1480
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 770
         }],
         "type": "Normal",
@@ -2291,8 +2291,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -2329,8 +2329,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Normal",
@@ -2367,16 +2367,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 730
         }],
         "type": "Ejecutiva",
@@ -2413,8 +2413,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Normal",
@@ -2451,16 +2451,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
@@ -2497,16 +2497,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 880
         }],
         "type": "Ejecutiva",
@@ -2543,24 +2543,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 480
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 950
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -2597,24 +2597,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 590
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 890
         }],
         "type": "Ejecutiva",
@@ -2651,24 +2651,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 780
         }],
         "type": "Ejecutiva",
@@ -2705,16 +2705,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 600
         }],
         "type": "Ejecutiva",
@@ -2751,24 +2751,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 400
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Ejecutiva",
@@ -2805,8 +2805,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
@@ -2843,32 +2843,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 450
         }],
         "type": "Hotel 4 Horas ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "Hotel Amanecida",
@@ -2905,8 +2905,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Normal",
@@ -2943,16 +2943,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 400
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -2989,16 +2989,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 530
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 730
         }],
         "type": "Ejecutiva",
@@ -3035,40 +3035,40 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 835
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1110
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1420
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1815
         }],
         "type": "Suit Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1280
         }],
         "type": "Patio Suit",
@@ -3105,24 +3105,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 460
         }],
         "type": "Normal ($ por 3 Horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 545
         }],
         "type": "Ejecutiva ($ por 3 Horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 545
         }],
         "type": "Presidencial ($ por 3 Horas)",
@@ -3159,48 +3159,48 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 600
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 850
         }],
         "type": "Especial ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 950
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1200
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1150
         }],
         "type": "Vice Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1750
         }],
         "type": "Suit",
@@ -3237,8 +3237,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 385
         }],
         "type": "Normal",
@@ -3275,16 +3275,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 495
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 685
         }],
         "type": "Ejecutiva",
@@ -3321,32 +3321,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 725
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 925
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1050
         }],
         "type": "Vice Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1350
         }],
         "type": "Presidencial",
@@ -3383,8 +3383,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 477
         }],
         "type": "Normal",
@@ -3421,24 +3421,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 430
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 460
         }],
         "type": "Premium",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Light",
@@ -3475,16 +3475,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 515
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 810
         }],
         "type": "Suit",
@@ -3521,32 +3521,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 678
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 840
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1901
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 740
         }],
         "type": "Semi-Ejecutiva",
@@ -3583,8 +3583,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 478
         }],
         "type": "Normal",
@@ -3621,16 +3621,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 370
         }],
         "type": "Normal ($ por 3 Horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 420
         }],
         "type": "Ejecutiva ($ por 3 Horas)",
@@ -3667,8 +3667,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 515
         }],
         "type": "Normal",
@@ -3705,8 +3705,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 680
         }],
         "type": "Normal",
@@ -3743,8 +3743,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -3781,24 +3781,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 630
         }],
         "type": "Normal +",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 960
         }],
         "type": "Ejecutiva",
@@ -3835,8 +3835,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
@@ -3873,32 +3873,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 730
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1150
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1150
         }],
         "type": "Acuatica",
@@ -3935,16 +3935,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 380
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 590
         }],
         "type": "Ejecutiva",
@@ -3981,16 +3981,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 700
         }],
         "type": "Ejecutiva",
@@ -4027,16 +4027,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 415
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 714
         }],
         "type": "Ejecutiva",
@@ -4073,24 +4073,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 255
         }],
         "type": "Normal 3 Horas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 355
         }],
         "type": "Normal + 3 Horas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 455
         }],
         "type": "Ejecutiva 3 horas",
@@ -4127,24 +4127,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 620
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1310
         }],
         "type": "Presidencial",
@@ -4181,16 +4181,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 600
         }],
         "type": "Ejecutiva",
@@ -4227,16 +4227,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 450
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 590
         }],
         "type": "Ejecutiva",
@@ -4273,24 +4273,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Normal +",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 930
         }],
         "type": "Ejecutiva",
@@ -4327,8 +4327,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 675
         }],
         "type": "Normal",
@@ -4365,16 +4365,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 525
         }],
         "type": "Expreso",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 790
         }],
         "type": "Ejecutiva",
@@ -4411,24 +4411,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 650
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1200
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1600
         }],
         "type": "Presidencial",
@@ -4465,8 +4465,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 365
         }],
         "type": "Normal ($ por 3 Horas)",
@@ -4503,40 +4503,40 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 795
         }],
         "type": "Jacuzzi ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 465
         }],
         "type": "Suit",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1295
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 995
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1595
         }],
         "type": "Presidencial Piscina  ($ por 1 Hora)",
@@ -4573,24 +4573,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 585
         }],
         "type": "Cleopatra/Isis",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 735
         }],
         "type": "Diosa",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1025
         }],
         "type": "Faraon",
@@ -4627,8 +4627,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 550
         }],
         "type": "Normal",
@@ -4665,24 +4665,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 350
         }],
         "type": "De Paso (4 horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 700
         }],
         "type": "Amanecida (desde 7 PM)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 425
         }],
         "type": "Amanecida (desde las 12 AM)",
@@ -4719,24 +4719,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 380
         }],
         "type": "De Paso (4 horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 700
         }],
         "type": "Amanecida (desde 10 PM Lun-Vie)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "Amanecida (desde 10 PM Sab/Dom)",
@@ -4773,48 +4773,48 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1125
         }],
         "type": "Amanecida Hab Normal ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 600
         }],
         "type": "Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1350
         }],
         "type": "Amanecida Hab Ejecutiva ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 700
         }],
         "type": "Presidencial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1575
         }],
         "type": "Amanecida Hab Presidencial",
@@ -4851,16 +4851,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 800
         }],
         "type": "De Paso (4 horas)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1500
         }],
         "type": "Amanecida",
@@ -4897,16 +4897,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 890
         }],
         "type": "Sencilla",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1780
         }],
         "type": "Ejecutiva",
@@ -4943,8 +4943,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 460
         }],
         "type": "Normal",
@@ -4981,64 +4981,64 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 515
         }],
         "type": "Normal ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 690
         }],
         "type": "Suite ",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1350
         }],
         "type": "VIP",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1545
         }],
         "type": "Normal 12h(Antes 9pm)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1250
         }],
         "type": "Normal 12h(despues 9pm)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 2070
         }],
         "type": "Suite 12h(Antes 9pm)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1600
         }],
         "type": "Suite 12h(despues 9pm)",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 3500
         }],
         "type": "VIP 12h",
@@ -5075,16 +5075,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 750
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 860
         }],
         "type": "Ejecutiva",
@@ -5121,8 +5121,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 45
         }],
         "type": "Habitacion Standar 2 Pax con desayuno",
@@ -5189,32 +5189,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 38
         }],
         "type": "Economica 1 Persona Con Desayuno",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 58
         }],
         "type": "Estándar 2 personas con desayuno",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 73
         }],
         "type": "Superior 2-4 personas con desayuno",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 85
         }],
         "type": "Suite Room 2-3 personas con desayuno",
@@ -5251,56 +5251,56 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 47
         }],
         "type": "Sencilla 1 Persona",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Standard 2 personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Standard 3 Personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Suite sin balcón 1 Persona",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Suite sin balcón 2 Personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 65
         }],
         "type": "Suite con balcón 1 Persona",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 75
         }],
         "type": "Suite con balcón 2 Personas",
@@ -5337,16 +5337,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 40
         }],
         "type": "Sencilla",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Doble",
@@ -5383,24 +5383,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 46
         }],
         "type": "Standard",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 46
         }],
         "type": "Doble",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Apartamentos",
@@ -5437,40 +5437,40 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Standard",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 55
         }],
         "type": "Standard Superior",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Junior Suite",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Suite",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 135
         }],
         "type": "Penthouse",
@@ -5507,24 +5507,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 100
         }],
         "type": "Deluxe Doble",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 90
         }],
         "type": "Superior Doble",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 80
         }],
         "type": "Ejecutiva Doble",
@@ -5591,32 +5591,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 29
         }],
         "type": "Sencilla Básica",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 32
         }],
         "type": "Sencilla Estándar",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 34
         }],
         "type": "Sencilla Deluxe",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 40
         }],
         "type": "Doble",
@@ -5653,40 +5653,40 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 80
         }],
         "type": "Junior Suite 2 Personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Estándar Sencilla 1 persona",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Estándar Sencilla 2 personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 65
         }],
         "type": "Estándar 1 persona",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 75
         }],
         "type": "Estándar 2 personas",
@@ -5723,16 +5723,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 110
         }],
         "type": "Superior 2 Per Con Desayuno",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 147
         }],
         "type": "Suite, 2 Per con Desayuno",
@@ -5769,24 +5769,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 40
         }],
         "type": "Apto con Cocina 1 Per",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Apto con Cocina 2 Per",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 45
         }],
         "type": "Hab 2 Camas 2 Per",
@@ -5823,24 +5823,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 75
         }],
         "type": "Estándar 2 personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 75
         }],
         "type": "Hab al lado de la playa 2 Per",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 95
         }],
         "type": "Estudio 2 Per",
@@ -5877,24 +5877,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Habitaciones",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Apartamentos",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 75
         }],
         "type": "Apto Vista al Mar",
@@ -5931,24 +5931,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 35
         }],
         "type": "Dormitorio",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 55
         }],
         "type": "Apartamento Pequeño",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 85
         }],
         "type": "Apartamento Grande",
@@ -5985,32 +5985,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 40
         }],
         "type": "Sencilla",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Sencilla Superior",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 65
         }],
         "type": "Doble",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Doble con Sala",
@@ -6077,32 +6077,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 42
         }],
         "type": "Sencilla",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 55
         }],
         "type": "Semi-Especial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 60
         }],
         "type": "Doble",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 95
         }],
         "type": "Jacuzzi Suite",
@@ -6169,32 +6169,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 45
         }],
         "type": "Hab. Matrimonial",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 50
         }],
         "type": "Doble Estandar",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 55
         }],
         "type": "Doble Ejecutiva",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 70
         }],
         "type": "Hab. Triple",
@@ -6231,8 +6231,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 3000
         }],
         "type": "Habitacion 2 Personas",
@@ -6269,16 +6269,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 570
         }],
         "type": "Sencilla",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 670
         }],
         "type": "Ejecutiva",
@@ -6315,32 +6315,32 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 520
         }],
         "type": "Cabaña Hab. Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 580
         }],
         "type": "Cabaña Hab. Normal +",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 300
         }],
         "type": "Hotel Hab normal 4 Horas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 355
         }],
         "type": "Hotel Hab. Normal + 4 Horas",
@@ -6377,8 +6377,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1500
         }],
         "type": "Habitacion Doble",
@@ -6415,24 +6415,24 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 500
         }],
         "type": "Hab Compartida",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1000
         }],
         "type": "Hab. 2 camas Abanico",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1400
         }],
         "type": "Hab. 2 camas con Aire",
@@ -6469,16 +6469,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 2000
         }],
         "type": "Hab Doble 3 Personas",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 1500
         }],
         "type": "Sencilla 2 personas",
@@ -7145,48 +7145,48 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 25
         }],
         "type": "Hab Temp Baja",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 30
         }],
         "type": "Hab Temp Alta",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 30
         }],
         "type": "Estudio (cocina) Temp Baja",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 33
         }],
         "type": "Estudio (cocina) Temp Alta",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 33
         }],
         "type": "Apto (cocina) Temp Baja",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 38
         }],
         "type": "Apto (cocina) Temp Alta",
@@ -7223,8 +7223,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 725
         }],
         "type": "Normal",
@@ -7291,8 +7291,8 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 125
         }],
         "type": "Estadía por noche",
@@ -7329,16 +7329,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 350
         }],
         "type": "Normal",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 700
         }],
         "type": "Amanecida",
@@ -7405,16 +7405,16 @@
     },
     "rooms": [{
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 375
         }],
         "type": "4 Horas con Aire",
         "description": null
     }, {
         "currency": "RD$",
-        "prices": [{
-            "hours": 4,
+        "plans": [{
+            "name": "De Paso",
             "price": 290
         }],
         "type": "4 Horas con Abanico",

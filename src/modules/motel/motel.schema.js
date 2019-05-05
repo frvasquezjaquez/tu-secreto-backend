@@ -55,11 +55,11 @@ export default `
     currency: String
     type: String
     description: String
-    prices: [Price]
+    plans: [Plan]
   }
 
-  type Price {
-    hours: String
+  type Plan {
+    name: String
     price: Float
   }
   
