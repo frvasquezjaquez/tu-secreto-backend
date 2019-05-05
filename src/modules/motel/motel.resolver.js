@@ -6,6 +6,7 @@ export default {
       getAll: async (parent, args) => {
         return Motel;
       },
+
       getByProvince: async(parent, args) => {
         let { province } = args
         return Motel.filter((motel) => {
@@ -25,6 +26,13 @@ export default {
           }
 
           return false;
+        });
+      },
+
+      getByTuSecretoUrl: async (parent, args ) => {
+        let { tu_secreto_url } = args ;
+        return Motel.find((motel) => {
+          return motel.tu_secreto_site == tu_secreto_url
         });
       }
     }

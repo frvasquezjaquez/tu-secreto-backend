@@ -79,6 +79,11 @@ export default `
       max: Float!,
       min: Float!
     ): [Motel]
+
+    getByTuSecretoUrl(
+      tu_secreto_url: String!
+    ): Motel
+    
     ping: String
   }
 
