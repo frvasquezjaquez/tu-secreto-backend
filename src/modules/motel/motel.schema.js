@@ -34,21 +34,21 @@ export default `
     site : String!
     email : String!
   }
-  
+
   type Attractive {
     credit_card:  Boolean!
     wifi:  Boolean! 
     jacuzzi:  Boolean!
     disco_lights:  Boolean!
-    pole_dance:  Boolean!:
+    pole_dance:  Boolean!
     erotic_sofa:  Boolean!
     ceiling_mirror:  Boolean!
     disco_bar:  Boolean!
     drink_service:  Boolean!
     hot_baths:  Boolean!
     phone:  Boolean!
-    water_bed:  Boolean!
-
+    water_bed:  Boolean!  
+    
   }
 
   type Room {
@@ -62,7 +62,8 @@ export default `
     hours: String!
     price: Float!
   }
-  Type Image{ 
+  
+  type Images{ 
     silder_images: [String]!
     feautured_image: String
   }
