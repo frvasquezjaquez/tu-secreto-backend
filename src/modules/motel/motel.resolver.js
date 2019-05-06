@@ -8,9 +8,9 @@ export default {
       },
 
       getByProvince: async(parent, args) => {
-        let { province } = args
+        let { province_url } = args
         return Motel.filter((motel) => {
-          return motel.geolocation.location.province == province;
+          return motel.geolocation.location.province_url == province_url;
         });
       },
 

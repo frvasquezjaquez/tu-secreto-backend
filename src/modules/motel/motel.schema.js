@@ -72,7 +72,7 @@ export default `
     getAll: [Motel]
     
     getByProvince(
-      province: String!
+      province_url: String!
     ): [Motel]
 
     getByPriceRange(
