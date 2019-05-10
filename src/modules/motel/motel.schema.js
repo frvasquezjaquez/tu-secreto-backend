@@ -84,6 +84,10 @@ export default `
       tu_secreto_url: String!
     ): Motel
     
+    search(
+      filter_value: String!
+    ): [Motel]
+
     ping: String
   }
 

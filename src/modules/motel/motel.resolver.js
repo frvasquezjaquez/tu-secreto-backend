@@ -34,6 +34,17 @@ export default {
         return Motel.find((motel) => {
           return motel.tu_secreto_site == tu_secreto_url
         });
+      },
+
+      search: async(parent, args) => {
+        let { filter_value } = args;
+        console.log(filter_value)
+        return Motel.filter((motel) => {
+          return motel.name.toLowerCase().includes(filter_value.toLowerCase()) //||
+                 //motel.geolocation.location.province.includes(filter_value) ||
+                // motel.geolocation.location.municipality.includes(filter_value)
+        })
+        
       }
     }
   }
