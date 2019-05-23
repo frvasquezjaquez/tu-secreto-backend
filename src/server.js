@@ -8,7 +8,7 @@ const app = express();
 /*========================
       DB CONNECTION
 ========================*/
-// require('./config/db');
+require('./config/db');
 
 /*========================
       MIDDLEWARES

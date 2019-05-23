@@ -1,9 +1,12 @@
 import {  UserInputError, ApolloError, ValidationError, ForbiddenError } from "apollo-server-express";
 import Motel  from './motel.json'
+import {Image } from './motel.model'
 
 export default {
     Query: {
       getAll: async (parent, args) => {
+        console.log("in function pre")
+        await Image.createDemo
         return Motel;
       },
 
