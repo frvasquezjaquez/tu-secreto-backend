@@ -11,7 +11,23 @@ export default {
           select: 'name'
         });
       },
+      searchByParams: async (parent, args) => {
+        let { name, province, price } = args;
+        let query = {};
 
+        if (name !== undefined && name !== "") query['name'] = name;
+        if (province !== undefined && province !== "") query['geolocation.location.province.name'] = province;
+        if (price !== undefined && price !== "") query['rooms.plans.price'] = { $lte: price };
+        
+        console.log(query)
+        let a = await Motel.find( query ).populate({
+          path: 'geolocation.location.province',
+          select: 'name'
+        });
+
+        console.log(a);
+        return a;
+      },
       getByProvinceSlug: async(parent, args) => {
         let { slug } = args;
         let province  = await Province.findOne({ slug })
@@ -30,7 +46,6 @@ export default {
         });
 
       },
-
       getByTuSecretoSlug: async (parent, args ) => {
         let { slug } = args ;
         return Motel.findOne({ slug })
@@ -39,27 +54,26 @@ export default {
                       select: 'name'
                     });
       },
-
-      // search: async(parent, args) => {
-      //   let { plan_name, price, name, province } = args;
-      //   return Motel.filter((motel) => {
-      //     let isPrice = false;
-      //     let isName = name  != undefined && motel.name.toLowerCase().includes(name.toLowerCase());
-      //     let isProvince =  province != undefined && motel.geolocation.location.province.includes(province.toLowerCase())
-          
-      //     for (let room in motel.rooms){
-      //       for (let plan in room.plans){
-      //          if (plan.price == price) isPrice = true;
-      //       }
-      //     }
-      //     let isProvince =  province != undefined && motel.geolocation.location.province.includes(province.toLowerCase())
-                
-      //           // motel.geolocation.location.municipality.includes(filter_value)
-      //   })
-      // },
-
       ping: async(parent, args) => {
       return "Pong"
+      }
+    },
+    Mutation: {
+      setReview: async(parent, args) =>{
+       if ( args.motel_id !== undefined  && args.motel_id !== "" ){
+          let review = {
+            rating: args.rating,
+            comment: args.comment,
+            email: args.email };
+            
+          let motel = await Motel.updateOne({ 
+                                        _id : args.motel_id,
+                                        $push: { reviews: review } });
+          return motel;
+        }
+
+        throw new UserInputError("Error al actualizar cabaña")
+        
       }
     }
   }

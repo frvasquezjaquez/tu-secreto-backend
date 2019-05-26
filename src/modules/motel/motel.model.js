@@ -45,6 +45,11 @@ const motelSchema = new Schema({
     phone:  Boolean,
     waterBed:  Boolean
   },
+  reviews:[{
+      email: String,
+      rating: Number,
+      comment: String
+  }],
   contacts: {
     phones: String,
     site: String,

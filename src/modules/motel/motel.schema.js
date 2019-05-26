@@ -4,12 +4,13 @@ export default `
     _id: String
     name: String
     geolocation: GeoLocation
-    tuSecretoSlug: String
+    slug: String
+    description: String
     contact: Contact
     rooms: [Room]
     attractives: Attractive
     images: Image
-    description: String
+    reviews: [Review]
   }
 
   type GeoLocation {
@@ -70,25 +71,42 @@ export default `
     slug : String
     name: String
     municipality: String
+  }
 
+  type Review {
+    user: String,
+    rating: Int
+    comment: String
   }
 
   type Query {
     getAll: [Motel]
+
+    searchByParams(
+      price: Int
+      name: String
+      province: String
+    ): [Motel]
     
     getByProvinceSlug(
       slug: String!
     ): [Motel]
 
     getByPrice(
-      max: Float!
-    ): [Motel]
+      max: Float!): [Motel]
 
     getByTuSecretoSlug(
-      slug : String!
-    ): Motel
+      slug : String!): Motel
 
     ping: String
+  }
+
+  type Mutation {
+    setReview(
+      motel_id: String 
+      email: String
+      comment: String
+      rating: Int! ): Motel
   }
 
 
