@@ -9,7 +9,7 @@ const motelSchema = new Schema({
     lowercase: true,
     minlength: 3
   }, 
-  tu_secreto_site: {
+  slug: {
     type: String,
     trim: true,
     unique: true,
@@ -19,131 +19,61 @@ const motelSchema = new Schema({
     type: String,
   },
   images:  {
-    type: Schema.Types.ObjectId ,
-    ref: 'Image'
-
+    sliderImages: [String],
+    featuredImage: String   
+  },
+  rooms: [{
+      roomType: String,
+      description: String,
+      plans: [{
+        name: String,
+        currency: String,
+        price: Number
+      }]
+  }],
+  attractives: {
+    creditCard:  Boolean,
+    wifi:  Boolean ,
+    jacuzzi:  Boolean,
+    discoLights:  Boolean,
+    poleDance:  Boolean,
+    eroticSofa:  Boolean,
+    ceilingMirror:  Boolean,
+    discoBar:  Boolean,
+    drinkService:  Boolean,
+    hotBaths:  Boolean,
+    phone:  Boolean,
+    waterBed:  Boolean
+  },
+  contacts: {
+    phones: String,
+    site: String,
+    email: String,
+  },
+  geolocation: {
+    latitude: String,
+    longitude: String,
+    location: {
+      full: String,
+      country: String,
+      postalCode: String,
+      address: String,
+      province:{
+        type: Schema.Types.ObjectId ,
+        ref: 'Province'
+      },
+      municipality:{
+        type: Schema.Types.ObjectId ,
+        ref: 'Municipality'
+      }
+    }
   }
+
+  
 });
 
 const Motel = model('Motel', motelSchema);
 
-const imageSchema = new Schema({
-  featured_image: {
-    type: String
-  }
-})
-
-const Image = model('Image', imageSchema);
-
-imageSchema.static.createDemo =async function(){
-  return new Promise((resolve, reject) => {
-    console.log("demo");
-  })
-}
-// /**
-//  * @desc  Hash user password
-//  */
-// motelSchema.pre('save',function(next){
-//   let userData = this;
-//   let saltRounds = 10;
-
-//   if(userData.isModified('password')){
-//     bcrypt.hash(userData.password, saltRounds).then(passwordHashed => {
-//       userData.password = passwordHashed;
-//       next();
-//     }).catch(err => next(err));
-//   }else{
-//     next();
-//   }
-// });
-
-// /**
-//  * @desc   Check is password match
-//  * @param  {String} plainPassword
-//  * @return {Boolean} isMatch
-//  */
-// motelSchema.methods.comparePassword = function(plainPassword){
-//   let userData = this;
-//   return new Promise((resolve,reject)=>{
-//     bcrypt.compare(plainPassword, userData.password,(err,isMatch)=>{
-//       if(err) reject(err);
-//       resolve(isMatch)
-//     })
-//   })
-// }
-
-// /**
-//  * @desc   Generate user token
-//  * @return {Object} userWithToken
-//  */
-// motelSchema.methods.generateToken = function(){
-//   return new Promise(async (resolve,reject)=>{
-//     let userData = this;
-//     let token = jwt.sign(userData._id.toHexString(), process.env.SECRET_KEY);
-//     userData.token = token;
-
-//     try {
-//       let user = await userData.save();
-//       resolve(user);
-//     } catch (err) {
-//       reject(err);
-//     }
-//   })
-// }
-
-// /**
-//  * @desc   Verify user
-//  * @param  {String} token
-//  * @return {Object} user
-//  */
-// motelSchema.statics.findBytoken = function(token){
-//   return new Promise(async (resolve,reject)=>{
-//     let userData = this;
-
-//     if(!token) return reject('Unauthorized');
-
-//     let dataDecoded = jwt.verify(token, process.env.SECRET_KEY);
-    
-//     try {
-//       let user = await userData.findOne({
-//         '_id': dataDecoded,
-//         token
-//       });
-//       resolve(user);
-//     } catch (err) {
-//       reject(err)
-//     }
-//   })
-// }
-
-// /**
-//  * @desc   Generate token for reset password
-//  * @return {Object} user
-//  */
-// motelSchema.methods.generateResetToken = function() {
-//   return new Promise(async (resolve,reject)=>{
-//     let userData = this;
-//     const buffer = crypto.randomBytes(20);
-//     const token = buffer.toString('hex');
-//     const today = moment().startOf('day').valueOf();
-//     const tomorrow = moment(today).endOf('day').valueOf();
-
-//     userData.token_reset = token;
-//     userData.token_reset_exp = tomorrow;
-
-//     try {
-//       let user = await userData.save();
-//       resolve(user);
-//     } catch (err) {
-//       reject(err);
-//     }
-//   })
-// }
-
-
-
-
 export {
-  Motel,
-  Image
+  Motel
 };

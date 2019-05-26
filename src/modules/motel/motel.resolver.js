@@ -1,53 +1,65 @@
 import {  UserInputError, ApolloError, ValidationError, ForbiddenError } from "apollo-server-express";
-import Motel  from './motel.json'
-import {Image } from './motel.model'
+import { Municipality } from '../municipality/municipality.model'
+import { Province } from '../province/province.model'
+import { Motel } from './motel.model'
 
 export default {
     Query: {
       getAll: async (parent, args) => {
-        console.log("in function pre")
-        await Image.createDemo
-        return Motel;
-      },
-
-      getByProvince: async(parent, args) => {
-        let { province_url } = args
-        return Motel.filter((motel) => {
-          return motel.geolocation.location.province_url == province_url;
+        return Motel.find({}).populate({
+          path: 'geolocation.location.province',
+          select: 'name'
         });
       },
 
-      getByPriceRange: async(parent, args) => {
-        let { max, min } = args
-        return Motel.filter((motel) => {
-          for (let room of motel.rooms){
-            for (let plan of room.plans){ 
-              if (plan.price >= min || plan.price <= max){
-                return true;
-              }
-            }
-          }
-
-          return false;
-        });
+      getByProvinceSlug: async(parent, args) => {
+        let { slug } = args;
+        let province  = await Province.findOne({ slug })
+                                      .populate({ path: 'motels' });
+        return province.motels;
       },
 
-      getByTuSecretoUrl: async (parent, args ) => {
-        let { tu_secreto_url } = args ;
-        return Motel.find((motel) => {
-          return motel.tu_secreto_site == tu_secreto_url
+      getByPrice: async(parent, args) => {
+        let { max } = args;
+
+        return Motel.find({
+          'rooms.plans.price': { $lte: max }
+        }).populate({
+          path: 'geolocation.location.province',
+          select: 'name'
         });
+
       },
 
-      search: async(parent, args) => {
-        let { filter_value } = args;
-        console.log(filter_value)
-        return Motel.filter((motel) => {
-          return motel.name.toLowerCase().includes(filter_value.toLowerCase()) //||
-                 //motel.geolocation.location.province.includes(filter_value) ||
-                // motel.geolocation.location.municipality.includes(filter_value)
-        })
-        
+      getByTuSecretoSlug: async (parent, args ) => {
+        let { slug } = args ;
+        return Motel.findOne({ slug })
+                    .populate({
+                      path: 'geolocation.location.province',
+                      select: 'name'
+                    });
+      },
+
+      // search: async(parent, args) => {
+      //   let { plan_name, price, name, province } = args;
+      //   return Motel.filter((motel) => {
+      //     let isPrice = false;
+      //     let isName = name  != undefined && motel.name.toLowerCase().includes(name.toLowerCase());
+      //     let isProvince =  province != undefined && motel.geolocation.location.province.includes(province.toLowerCase())
+          
+      //     for (let room in motel.rooms){
+      //       for (let plan in room.plans){
+      //          if (plan.price == price) isPrice = true;
+      //       }
+      //     }
+      //     let isProvince =  province != undefined && motel.geolocation.location.province.includes(province.toLowerCase())
+                
+      //           // motel.geolocation.location.municipality.includes(filter_value)
+      //   })
+      // },
+
+      ping: async(parent, args) => {
+      return "Pong"
       }
     }
   }

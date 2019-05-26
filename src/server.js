@@ -32,7 +32,7 @@ const SERVER = new ApolloServer({
       introspection: true,
       playground: true,
       playground: {
-          endpoint: `http://localhost:4000/graphql`,
+          endpoint: `https://pitafoo.com:4000/graphql`,
           settings: {
               'editor.theme': 'dark'
           }

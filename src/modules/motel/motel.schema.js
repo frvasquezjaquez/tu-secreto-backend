@@ -1,12 +1,11 @@
 export default `
 
-
   type Motel {
     _id: String
     name: String
     geolocation: GeoLocation
-    tu_secreto_site: String
-    contacts: Contact
+    tuSecretoSlug: String
+    contact: Contact
     rooms: [Room]
     attractives: Attractive
     images: Image
@@ -20,12 +19,11 @@ export default `
   }
 
   type Location {
-    province : String
+    province : Province
     full : String
     country : String
     municipality : String
-    postal_code : String
-    province_url : String
+    postalCode : String
     address : String
   }
 
@@ -36,18 +34,18 @@ export default `
   }
 
   type Attractive {
-    credit_card:  Boolean
+    creditCard:  Boolean
     wifi:  Boolean 
     jacuzzi:  Boolean
-    disco_lights:  Boolean
-    pole_dance:  Boolean
-    erotic_sofa:  Boolean
-    ceiling_mirror:  Boolean
-    disco_bar:  Boolean
-    drink_service:  Boolean
-    hot_baths:  Boolean
+    discoLights:  Boolean
+    poleDance:  Boolean
+    eroticSofa:  Boolean
+    ceilingMirror:  Boolean
+    discoBar:  Boolean
+    drinkService:  Boolean
+    hotBaths:  Boolean
     phone:  Boolean
-    water_bed:  Boolean  
+    waterBed:  Boolean  
     
   }
 
@@ -64,29 +62,31 @@ export default `
   }
   
   type Image { 
-    slider_images: [String]
-    featured_image: String
+    sliderImages: [String]
+    featuredImage: String
+  }
+
+  type Province {
+    slug : String
+    name: String
+    municipality: String
+
   }
 
   type Query {
     getAll: [Motel]
     
-    getByProvince(
-      province_url: String!
+    getByProvinceSlug(
+      slug: String!
     ): [Motel]
 
-    getByPriceRange(
-      max: Float!,
-      min: Float!
+    getByPrice(
+      max: Float!
     ): [Motel]
 
-    getByTuSecretoUrl(
-      tu_secreto_url: String!
+    getByTuSecretoSlug(
+      slug : String!
     ): Motel
-    
-    search(
-      filter_value: String!
-    ): [Motel]
 
     ping: String
   }
