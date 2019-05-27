@@ -14,19 +14,24 @@ export default {
       searchByParams: async (parent, args) => {
         let { name, province, price } = args;
         let query = {};
-
-        if (name !== undefined && name !== "") query['name'] = name;
-        if (province !== undefined && province !== "") query['geolocation.location.province.name'] = province;
-        if (price !== undefined && price !== "") query['rooms.plans.price'] = { $lte: price };
-        
-        console.log(query)
-        let a = await Motel.find( query ).populate({
+        let province_query =  {
           path: 'geolocation.location.province',
           select: 'name'
-        });
+          };
 
-        console.log(a);
-        return a;
+        if (name !== undefined && name !== "") query['name'] = name;
+        if (price !== undefined && price !== "") query['rooms.plans.price'] = { $lte: price };
+        if (province !== undefined && province !== ""){
+          province_query['match'] = { name: province};
+        }
+        
+        let result = await Motel.find( query )
+                                .populate( province_query );
+        
+                          return result.filter((record) => {
+          return record.geolocation.location.province != null
+        } );
+       
       },
       getByProvinceSlug: async(parent, args) => {
         let { slug } = args;
