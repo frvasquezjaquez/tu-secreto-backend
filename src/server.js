@@ -25,14 +25,9 @@ import resolvers from './modules/motel/motel.resolver'
 const SERVER = new ApolloServer({
       typeDefs,
       resolvers,
-      // context: {
-      //       Motel
-      // }
-      //,
       introspection: true,
-      playground: true,
       playground: {
-          endpoint: `https://pitafoo.com:4000/graphql`,
+          endpoint: `https://${process.env.HOSTNAME}:${process.env.PORT}/graphql`,
           settings: {
               'editor.theme': 'dark'
           }

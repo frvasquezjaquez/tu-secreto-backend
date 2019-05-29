@@ -47,6 +47,7 @@ export default `
     hotBaths:  Boolean
     phone:  Boolean
     waterBed:  Boolean  
+    foodService: Boolean
     
   }
 

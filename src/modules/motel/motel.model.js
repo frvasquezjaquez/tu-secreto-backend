@@ -75,7 +75,7 @@ const motelSchema = new Schema({
   }
 
   
-});
+}, {collection: 'motel_db'});
 
 const Motel = model('Motel', motelSchema);
 

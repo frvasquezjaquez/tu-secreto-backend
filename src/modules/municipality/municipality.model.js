@@ -7,7 +7,7 @@ const municipalitySchema = new Schema({
     type: Schema.Types.ObjectId ,
     ref: 'Motel'
   }]
-})
+},  {collection: 'municipality_db'})
 
 const Municipality = model('Municipality', municipalitySchema);
 

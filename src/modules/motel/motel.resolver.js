@@ -6,10 +6,14 @@ import { Motel } from './motel.model'
 export default {
     Query: {
       getAll: async (parent, args) => {
-        return Motel.find({}).populate({
+        return  Motel.find({}).populate({
           path: 'geolocation.location.province',
           select: 'name'
-        });
+        }
+       
+        
+        );
+          
       },
       searchByParams: async (parent, args) => {
         let { name, province, price } = args;
@@ -71,10 +75,9 @@ export default {
             comment: args.comment,
             email: args.email };
             
-          let motel = await Motel.updateOne({ 
-                                        _id : args.motel_id,
+          return await Motel.updateOne({_id : args.motel_id},{ 
+                                        
                                         $push: { reviews: review } });
-          return motel;
         }
 
         throw new UserInputError("Error al actualizar cabaña")

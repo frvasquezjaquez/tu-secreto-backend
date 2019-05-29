@@ -12,7 +12,7 @@ const provinceSchema = new Schema({
     type: Schema.Types.ObjectId ,
     ref: 'Municipality'
   }]
-})
+},  {collection: 'province_db'})
 
 const Province = model('Province', provinceSchema);
 
