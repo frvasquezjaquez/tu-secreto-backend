@@ -9,11 +9,7 @@ export default {
         return  Motel.find({}).populate({
           path: 'geolocation.location.province',
           select: 'name'
-        }
-       
-        
-        );
-          
+        }); 
       },
       searchByParams: async (parent, args) => {
         let { name, province, price } = args;
@@ -75,9 +71,10 @@ export default {
             comment: args.comment,
             email: args.email };
             
-          return await Motel.updateOne({_id : args.motel_id},{ 
-                                        
-                                        $push: { reviews: review } });
+          Motel.updateOne({ _id : args.motel_id },{                    
+                          $push: { reviews: review } });
+
+          return Motel.findOne({ _id:args.motel_id })
         }
 
         throw new UserInputError("Error al actualizar cabaña")
