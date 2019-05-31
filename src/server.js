@@ -2,8 +2,11 @@ require('dotenv').config();
 import express from 'express';
 import middlewares from './middlewares';
 import log from './config/winston';
+let cors = require('cors');
+
 
 const app = express();
+app.use(cors());
 
 /*========================
       DB CONNECTION
@@ -21,13 +24,6 @@ middlewares(app);
 import { ApolloServer} from 'apollo-server-express';
 import typeDefs from './modules/motel/motel.schema'
 import resolvers from './modules/motel/motel.resolver'
-
-
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
 
 const SERVER = new ApolloServer({
       typeDefs,
