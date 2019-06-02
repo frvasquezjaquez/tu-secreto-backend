@@ -6,13 +6,22 @@ import { Motel } from './motel.model'
 export default {
     Query: {
       getAll: async (parent, args) => {
-        return  Motel.find({}).populate({
-          path: 'geolocation.location.province',
-          select: 'name'
-        }); 
+        let { page, limit } = args; 
+
+        let motelResult = await Motel.find({})
+                                      .populate({
+                                                path: 'geolocation.location.province',
+                                                select: 'name'})
+                                      .skip(page * limit)
+                                      .limit(limit);
+        let motelCount = await Motel.find({}).count()
+
+
+        return { motels : motelResult,
+                totalCount: motelCount}
       },
       searchByParams: async (parent, args) => {
-        let { name, province, price } = args;
+        let { name, province, price, page, limit } = args;
         let query = {};
         let province_query =  {
           path: 'geolocation.location.province',
@@ -25,32 +34,32 @@ export default {
           province_query['match'] = { name: province};
         }
         
-        let result = await Motel.find( query )
-                                .populate( province_query );
+        let motelResult = await Motel.find( query )
+                                .populate( province_query )
+                                .skip(page * limit)
+                                .limit(limit);
+        let motelCount =  Motel.find(query).count();
         
-                          return result.filter((record) => {
-          return record.geolocation.location.province != null
-        } );
+        return {  motels: motelResult, 
+                  totalCount: motelCount }
+        
        
       },
       getByProvinceSlug: async(parent, args) => {
-        let { slug } = args;
+        let { slug, page, limit } = args;
+
         let province  = await Province.findOne({ slug })
-                                      .populate({ path: 'motels' });
-        return province.motels;
+                                      .populate({ path: 'motels' });  
+        let end = page * limit;
+
+        if (province !== null) {
+          return { motels: province.motels.slice(end-limit, end),
+                  totalCount: province.motels.length}
+        }
+        return { motels: [],
+          totalCount: 0}
       },
 
-      getByPrice: async(parent, args) => {
-        let { max } = args;
-
-        return Motel.find({
-          'rooms.plans.price': { $lte: max }
-        }).populate({
-          path: 'geolocation.location.province',
-          select: 'name'
-        });
-
-      },
       getByTuSecretoSlug: async (parent, args ) => {
         let { slug } = args ;
         return Motel.findOne({ slug })
@@ -59,6 +68,7 @@ export default {
                       select: 'name'
                     });
       },
+
       ping: async(parent, args) => {
       return "Pong"
       }

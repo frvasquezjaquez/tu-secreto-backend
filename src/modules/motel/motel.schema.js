@@ -80,21 +80,37 @@ export default `
     comment: String
   }
 
+  type MotelResult {
+    motels: [Motel]
+    totalCount: Int
+  }
+
   type Query {
-    getAll: [Motel]
+    getAll(
+      page: Int  = 0
+      limit: Int = 0
+      latitude: Float
+      longitude: Float
+    ): MotelResult
 
     searchByParams(
       price: Int
       name: String
       province: String
-    ): [Motel]
+      page: Int  = 0
+      limit: Int = 0
+      latitude: Float
+      longitude: Float
+
+    ): MotelResult
     
     getByProvinceSlug(
-      slug: String!
-    ): [Motel]
-
-    getByPrice(
-      max: Float!): [Motel]
+      slug: String! 
+      page: Int  = 0
+      limit: Int = 0
+      latitude: Float
+      longitude: Float
+    ): MotelResult
 
     getByTuSecretoSlug(
       slug : String!): Motel
