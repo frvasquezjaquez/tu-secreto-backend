@@ -16,12 +16,11 @@ export default {
                                       .limit(limit);
         let motelCount = await Motel.find({}).count()
 
-
         return { motels : motelResult,
                 totalCount: motelCount}
       },
       searchByParams: async (parent, args) => {
-        let { name, province, price, page, limit } = args;
+        let { name, province, price, page, limit, roomType } = args;
         let query = {};
         let province_query =  {
           path: 'geolocation.location.province',
@@ -29,6 +28,7 @@ export default {
           };
 
         if (name !== undefined && name !== "") query['name'] = name;
+        if (roomType !== undefined && roomType !== "") query['rooms.roomType'] = roomType;
         if (price !== undefined && price !== "") query['rooms.plans.price'] = { $lte: price };
         if (province !== undefined && province !== ""){
           province_query['match'] = { name: province};
@@ -38,6 +38,7 @@ export default {
                                 .populate( province_query )
                                 .skip(page * limit)
                                 .limit(limit);
+                                
         let motelCount =  Motel.find(query).count();
         
         return {  motels: motelResult, 

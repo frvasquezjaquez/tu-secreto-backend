@@ -52,8 +52,7 @@ export default `
   }
 
   type Room {
-    currency: String
-    type: String
+    roomType: String
     description: String
     plans: [Plan]
   }
@@ -61,6 +60,7 @@ export default `
   type Plan {
     name: String
     price: Float
+    currency: String
   }
   
   type Image { 
@@ -97,6 +97,7 @@ export default `
       price: Int
       name: String
       province: String
+      roomType: String
       page: Int  = 0
       limit: Int = 0
       latitude: Float
