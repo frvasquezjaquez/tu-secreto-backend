@@ -96,6 +96,7 @@ export default `
     searchByParams(
       price: Int
       name: String
+      roomType: String
       province: String
       page: Int  = 0
       limit: Int = 0
