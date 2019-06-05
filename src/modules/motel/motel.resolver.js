@@ -54,6 +54,7 @@ export default {
 
       let motelCount = await Motel.find({}).count();
 
+<<<<<<< Updated upstream
       return {
         motels: motelResult,
         totalCount: motelCount
@@ -90,6 +91,8 @@ export default {
         .limit(limit);
         
       let motelCount = Motel.find(query).count();
+=======
+>>>>>>> Stashed changes
 
       return {
         motels: motelResult,
@@ -98,6 +101,46 @@ export default {
 
 
     },
+<<<<<<< Updated upstream
+=======
+    searchByParams: async (parent, args) => {
+      let {
+        name,
+        province,
+        price,
+        page,
+        limit
+      } = args;
+      let query = {};
+      let province_query = {
+        path: 'geolocation.location.province',
+        select: 'name'
+      };
+
+      if (name !== undefined && name !== "") query['name'] = name;
+      if (price !== undefined && price !== "") query['rooms.plans.price'] = {
+        $lte: price
+      };
+      if (province !== undefined && province !== "") {
+        province_query['match'] = {
+          name: province
+        };
+      }
+
+      let motelResult = await Motel.find(query)
+        .populate(province_query)
+        .skip(page * limit)
+        .limit(limit);
+      let motelCount = Motel.find(query).count();
+
+      return {
+        motels: motelResult,
+        totalCount: motelCount
+      }
+
+
+    },
+>>>>>>> Stashed changes
     getByProvinceSlug: async (parent, args) => {
       let {
         slug,
@@ -124,6 +167,7 @@ export default {
         totalCount: 0
       }
     },
+<<<<<<< Updated upstream
 
     getByTuSecretoSlug: async (parent, args) => {
       let {
@@ -151,6 +195,35 @@ export default {
           email: args.email
         };
 
+=======
+
+    getByTuSecretoSlug: async (parent, args) => {
+      let {
+        slug
+      } = args;
+      return Motel.findOne({
+          slug
+        })
+        .populate({
+          path: 'geolocation.location.province',
+          select: 'name'
+        });
+    },
+
+    ping: async (parent, args) => {
+      return "Pong";
+    }
+  },
+  Mutation: {
+    setReview: async (parent, args) => {
+      if (args.motel_id !== undefined && args.motel_id !== "") {
+        let review = {
+          rating: args.rating,
+          comment: args.comment,
+          email: args.email
+        };
+
+>>>>>>> Stashed changes
         Motel.updateOne({
           _id: args.motel_id
         }, {
