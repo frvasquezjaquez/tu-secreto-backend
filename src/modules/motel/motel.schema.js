@@ -11,6 +11,7 @@ export default `
     attractives: Attractive
     images: Image
     reviews: [Review]
+    distance: Float
   }
 
   type GeoLocation {
@@ -89,19 +90,20 @@ export default `
     getAll(
       page: Int  = 0
       limit: Int = 0
-      latitude: Float
-      longitude: Float
+      longitude: Float = 0 
+      latitude: Float = 0
     ): MotelResult
 
     searchByParams(
       price: Int
       name: String
+      roomType: String
       province: String
       roomType: String
       page: Int  = 0
       limit: Int = 0
-      latitude: Float
-      longitude: Float
+      latitude: Float = 0
+      longitude: Float = 0
 
     ): MotelResult
     
