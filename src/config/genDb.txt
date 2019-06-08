@@ -1,0 +1,46 @@
+db.motel_db.createIndex( {"geolocation.coordinates": "2dsphere" })
+
+db.motel_db.aggregate(
+    [
+        { "$addFields": { 
+            "geolocation.coordinates":  {
+                $concatArrays:[ [ {
+                                   $toDecimal: {$trim:{ input: "$geolocation.longitude"}}
+                                    },{
+                                   $toDecimal: {$trim:{ input: "$geolocation.latitude"}}
+                                    } ] ] 
+            },
+            "geolocation.type": "Point"
+            
+        }}, {"$out": "test"}
+    ]
+)
+
+
+
+
+db.motel_db.aggregate([
+   {
+     $geoNear: {
+        near: { type: "Point", coordinates: [ -69.8656852, 18.507173599999998 ] },
+        distanceField: "dist.calculated",
+        maxDistance: 10000,
+        includeLocs: "dist.location",
+        num: 5,
+        spherical: true
+     }
+   }
+])
+
+
+
+db.motel_db.aggregate([
+   {
+     $geoNear: {
+        near: { type: "Point", coordinates: [ -69.8656852, 18.507173599999998 ] },
+        distanceField: "distance",
+        num: 5,
+        spherical: true
+     }
+   }
+])

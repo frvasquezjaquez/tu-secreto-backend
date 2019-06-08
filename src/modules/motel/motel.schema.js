@@ -11,13 +11,13 @@ export default `
     attractives: Attractive
     images: Image
     reviews: [Review]
-    distance: Float
   }
 
   type GeoLocation {
     latitude: String
     longitude: String
     location: Location
+    distance: String
   }
 
   type Location {
@@ -88,20 +88,19 @@ export default `
 
   type Query {
     getAll(
-      page: Int  = 0
-      limit: Int = 0
-      longitude: Float = 0 
+      page: Int  = 1
+      limit: Int = 20
       latitude: Float = 0
+      longitude: Float = 0
     ): MotelResult
 
     searchByParams(
       price: Int
       name: String
-      roomType: String
       province: String
       roomType: String
-      page: Int  = 0
-      limit: Int = 0
+      page: Int  = 1
+      limit: Int = 20
       latitude: Float = 0
       longitude: Float = 0
 
@@ -109,10 +108,10 @@ export default `
     
     getByProvinceSlug(
       slug: String! 
-      page: Int  = 0
-      limit: Int = 0
-      latitude: Float
-      longitude: Float
+      page: Int  = 1
+      limit: Int = 20
+      latitude: Float = 0
+      longitude: Float = 0
     ): MotelResult
 
     getByTuSecretoSlug(
@@ -128,6 +127,5 @@ export default `
       comment: String
       rating: Int! ): Motel
   }
-
 
 `;
