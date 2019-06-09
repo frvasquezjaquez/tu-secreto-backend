@@ -83,7 +83,7 @@ export default {
       if (province !== undefined && province !== "") {
         matchFilter["geolocation.location.province.name"] = province
       }
-      if (slug !== undefined && slug !== "") {
+      if (provinceSlug !== undefined && provinceSlug !== "") {
         matchFilter["geolocation.location.province.slug"] = provinceSlug
       }
 
