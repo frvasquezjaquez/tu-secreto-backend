@@ -99,19 +99,12 @@ export default `
       name: String
       province: String
       roomType: String
+      provinceSlug: String
       page: Int  = 1
       limit: Int = 20
       latitude: Float = 0
       longitude: Float = 0
 
-    ): MotelResult
-    
-    getByProvinceSlug(
-      slug: String! 
-      page: Int  = 1
-      limit: Int = 20
-      latitude: Float = 0
-      longitude: Float = 0
     ): MotelResult
 
     getByTuSecretoSlug(

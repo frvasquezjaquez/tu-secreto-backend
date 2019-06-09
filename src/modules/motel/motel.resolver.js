@@ -11,9 +11,6 @@ import {
   Motel
 } from './motel.model'
 
-function getApollo(test){
-  console.log(test);
-}
 
 export default {
   Query: {
@@ -67,6 +64,7 @@ export default {
         name,
         province,
         price,
+        provinceSlug,
         page,
         limit,
         roomType,
@@ -84,6 +82,9 @@ export default {
       };
       if (province !== undefined && province !== "") {
         matchFilter["geolocation.location.province.name"] = province
+      }
+      if (slug !== undefined && slug !== "") {
+        matchFilter["geolocation.location.province.slug"] = provinceSlug
       }
 
 
@@ -122,57 +123,6 @@ export default {
         totalCount: motelResult.length
       }
     },
-    getByProvinceSlug: async (parent, args) => {
-      let {
-        slug,
-        page,
-        limit,
-        longitude,
-        latitude
-      } = args;
-
-      let matchFilter = {}
-
-      if (slug !== undefined && slug !== "") {
-        matchFilter["geolocation.location.province.slug"] = slug
-      }
-
-
-      let motelResult = await Motel.aggregate([{
-          $geoNear: {
-            near: {
-              type: "Point",
-              coordinates: [longitude, latitude]
-            },
-            distanceField: "geolocation.distance",
-            spherical: true,
-            limit:500
-          }
-        },
-        {
-          $lookup: {
-            from: "province_db",
-            localField: "geolocation.location.province",
-            foreignField: "_id",
-            as: "geolocation.location.province"
-          }
-        },
-        {
-          $unwind: '$geolocation.location.province'
-        },
-        {
-          $match: matchFilter
-        }
-      ]);
-      
-      let end = page * limit;
-
-      return {
-        motels: motelResult.slice(end - limit, end),
-        totalCount: motelResult.length
-      }
-    },
-
     getByTuSecretoSlug: async (parent, args) => {
       let {
         slug
