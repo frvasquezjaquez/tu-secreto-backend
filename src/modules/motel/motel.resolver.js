@@ -75,7 +75,7 @@ export default {
       let matchFilter = {}
 
 
-      if (name !== undefined && name !== "") query['name'] = name;
+      if (name !== undefined && name !== "") query['name'] =  { $regex: name, $options: 'i' };
       if (roomType !== undefined && roomType !== "") query['rooms.roomType'] = roomType;
       if (price !== undefined && price !== "") query['rooms.plans.price'] = {
         $lte: price
@@ -86,6 +86,7 @@ export default {
       if (provinceSlug !== undefined && provinceSlug !== "") {
         matchFilter["geolocation.location.province.slug"] = provinceSlug
       }
+      console.log(query)
 
 
       let motelResult = await Motel.aggregate([{
