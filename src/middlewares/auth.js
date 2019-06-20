@@ -11,7 +11,6 @@ const authenticationRequired = async (req,res) => {
     req.user = user;
     return token;
   } catch (error) {
-    console.log(error);
     return false;
   }
 }

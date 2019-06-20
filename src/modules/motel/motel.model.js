@@ -50,7 +50,7 @@ const motelSchema = new Schema({
       rating: Number,
       comment: String
   }],
-  contacts: {
+  contact: {
     phones: String,
     site: String,
     email: String,
