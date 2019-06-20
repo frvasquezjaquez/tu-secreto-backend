@@ -86,8 +86,6 @@ export default {
       if (provinceSlug !== undefined && provinceSlug !== "") {
         matchFilter["geolocation.location.province.slug"] = provinceSlug
       }
-      console.log(query)
-
 
       let motelResult = await Motel.aggregate([{
           $geoNear: {
