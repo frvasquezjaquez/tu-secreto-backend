@@ -58,6 +58,7 @@ const motelSchema = new Schema({
   geolocation: {
     latitude: String,
     longitude: String,
+    coordinates: [Number],
     location: {
       full: String,
       country: String,
@@ -76,6 +77,8 @@ const motelSchema = new Schema({
 
   
 }, {collection: 'motel_db'});
+
+motelSchema.index({ "geolocation.coordinates": "2dsphere" });
 
 const Motel = model('Motel', motelSchema);
 

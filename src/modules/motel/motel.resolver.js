@@ -95,8 +95,7 @@ export default {
             },
             distanceField: "geolocation.distance",
             spherical: true,
-            query,
-            limit:500
+            query
           }
         },
         {

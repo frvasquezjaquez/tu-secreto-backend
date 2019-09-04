@@ -3,9 +3,19 @@ services:
   app:
     build: 
         context: .
-    container_name: tu_secreto_backend   
     restart: always
     ports:
-      - '4000:4000'
+      - '5050:4000'
     env_file:
       - .env
+  mongo:
+   image: mongo
+   restart: always
+   volumes:
+     - ./postgresqldata:/var/lib/postgresql/data
+   ports:
+      - 27018:27017
+networks:
+ default:
+  external:
+   name: prod
