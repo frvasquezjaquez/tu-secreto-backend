@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: tusecreto-mongodb
+  namespace: backend
+spec:
+  selector:
+    matchLabels:
+      app: tusecreto-mongodb
+  serviceName: tusecreto-mongodb
+  replicas: 1
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: tusecreto-mongodb
+    spec:
+      containers:
+        - name: tusecreto-mongodb
+          image: mongo
+          imagePullPolicy: "IfNotPresent"
+          ports:
+            - containerPort: 27017
+          envFrom:
+            - configMapRef:
+                name: tusecreto-mongodb-config
+          # volumeMounts:
+          #   - mountPath: /data/db
+          #     name: tusecreto-mongodb-volume
+          resources:
+            limits:
+              cpu: 2000m
+              memory: 2048Mi
+            requests:
+              cpu: 500m
+              memory: 512Mi
+      volumes:
+        - name: tusecreto-mongodb-volume
+          persistentVolumeClaim:
+            claimName: pvc-db-mongodb-tusecreto
+      imagePullSecrets:
+            - name: regcred-pitafoo 

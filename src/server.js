@@ -30,7 +30,7 @@ const SERVER = new ApolloServer({
       resolvers,
       introspection: true,
       playground: {
-          endpoint: `https://${process.env.HOSTNAME}:${process.env.PORT}/graphql`,
+          endpoint: `${process.env.PLAYGROUND_URL}`,
           settings: {
               'editor.theme': 'dark'
           }
@@ -41,10 +41,10 @@ const SERVER = new ApolloServer({
       app
     })
 
-const server = app.listen(process.env.PORT, err => {
+const server = app.listen(3000, err => {
   if (err) throw Error(err);
   log.info(`
-  Server running on port: ${process.env.PORT}
+  Server running on port: 3000
   Environment: ${process.env.NODE_ENV}
   `);
 });

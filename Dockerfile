@@ -1,15 +1,15 @@
-FROM node:10 as Build
+FROM node:10.22.1-slim as Build
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json  .
 RUN npm install
 
-From node:10 as Prod
+FROM node:10.22.1-slim as Prod
 WORKDIR /app
 
-Copy --from=Build /app/node_modules ./node_modules
+COPY --from=Build /app/node_modules ./node_modules
 COPY . .
-EXPOSE 4000
+EXPOSE 3000
 
 CMD ["npm", "run","start" ]

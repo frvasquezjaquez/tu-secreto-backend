@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tusecreto-configmap
+data:
+  NODE_ENV : prod
+  DB_URI : mongodb+srv://tusecreto-admin:Dr_u1XMj554@cluster0.nqwxe.mongodb.net/TuSecretoRD?retryWrites=true&w=majority
+  SECRET_KEY : simple_boilerplate
+  ROOT_URL : http://api.tusecretord.com:3000
+  EMAIL_PASS : simple_boilerplate
+  PORT : '3000'
+  PLAYGROUND_URL : http://api.tusecretord.com:3000/graphql

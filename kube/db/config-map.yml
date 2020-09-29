@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tusecreto-mongodb-config
+  labels:
+    app: mongo
+data:
+  MONGO_INITDB_ROOT_USERNAME: tusecreto-admin
+  MONGO_INITDB_ROOT_PASSWORD: TuS3ccretoPass
+  MONGO_INITDB_DATABASE: TuSecretoRD

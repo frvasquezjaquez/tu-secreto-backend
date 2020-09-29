@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tusecretord-backend
+spec:
+  selector:
+    matchLabels:
+      app: tusecretord-backend
+  template:
+    metadata:
+      labels:
+        app: tusecretord-backend
+    spec:
+      containers:
+      - name: tusecretord-backend
+        image: harbor.pitafoo.com/starfish/tusecreto-backend:latest
+        # # Just spin & wait forever
+        # command: [ "/bin/bash", "-c", "--" ]
+        # args: [ "while true; do sleep 30; done;" ]
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+          - containerPort: 3000
+        envFrom:
+          - configMapRef:
+              name: tusecreto-configmap
+      imagePullSecrets:
+        - name: regcred-pitafoo

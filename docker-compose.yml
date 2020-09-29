@@ -4,18 +4,16 @@ services:
     build: 
         context: .
     restart: always
+    depends_on:
+      - mongo
     ports:
-      - '5050:4000'
+      - '5050:3000'
     env_file:
       - .env
   mongo:
    image: mongo
    restart: always
-   volumes:
-     - ./postgresqldata:/var/lib/postgresql/data
+  #  volumes:
+  #    - ./data:/data/db
    ports:
       - 27018:27017
-networks:
- default:
-  external:
-   name: prod
